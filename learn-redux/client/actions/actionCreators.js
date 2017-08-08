@@ -1,4 +1,4 @@
-export const incrementLikes = index => {
+export const incrementLikes = (index) => {
   return {
     type: 'INCREMENT_LIKES',
     index
